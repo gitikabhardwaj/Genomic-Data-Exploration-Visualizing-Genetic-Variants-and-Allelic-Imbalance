@@ -52,5 +52,5 @@ Building on this work, future research could explore deeper into the functional 
 The methodology and findings of this study also have broader implications for biodiversity conservation efforts. By understanding the genetic relationships and historical divergences between species, conservationists can better design strategies that preserve the genetic diversity crucial for ecosystem stability. Furthermore, this research can aid in the educational sector by providing clear, visual representations of evolutionary relationships, which are essential for teaching complex biological concepts in both academic and public settings.
 
 ## Contact
-For any further inquiries, please feel free to contact me at [gita.bhardwaj1@gmail.com](mailto:gita.bhardwaj1@gmail.com).
+For direct inquiries, collaborations, or consultation requests, reach out to me via email at [gita.bhardwaj1@gmail.com](mailto:gita.bhardwaj1@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/gitabhardwaj/).
 ```
