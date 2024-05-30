@@ -30,7 +30,7 @@ Follow these steps to run the analyses:
 Each result and visualization is stored in the `/results/` directory, including:
 
 ### Bar Plot of Allelic Imbalance
-![Bar Plot of Allelic Imbalance](results/Bar%20Plot%20of%20Allelic%20Imbalance/Bar%20Plot%20of%20Allelic%20Imbalance.png)
+![Bar Plot of Allelic Imbalance](results/Bar%20Plot%20of%20Allelic%20Imbalance.png)
 This bar plot visualizes the mean counts of nucleotides (Adenine (A), Cytosine (C), Guanine (G), and Thymine (T)) at the specific genomic position chr17_79478019. It highlights significant allelic imbalances, showing how nucleotides are expressed at varying levels. Such variations are essential for understanding genetic diversity and potential mutations or genetic disorders.
 
 ### Phylogenetic Trees
@@ -38,7 +38,8 @@ This bar plot visualizes the mean counts of nucleotides (Adenine (A), Cytosine (
 ![Complete Phylogenetic Tree of Species](results/Complete%20Phylogenetic%20Tree%20of%20Species.png)
 
 - **Phylogenetic Subtree of Homo sapiens and Drosophila melanogaster**:
-![Phylogenetic Subtree of Homo sapiens and Drosophila melanogaster](results/Phylogenetic%20Subtree%20of%20Homo%20Sapiens%20and%20Drosophila%20melanogaster.png)
+![Phylogenetic Subtree of Homo sapiens and Drosophila melanogaster](results/Phylogenetic%20Subtree%20of%20Homo%20sapiens%20and%20Drosophila%20melanogaster.png)
+
  Offers a detailed view of the smallest subtree containing both species, illustrating their genetic relationship and evolutionary distance, scaled down to enhance detail visibility.
 
 These visualizations are crucial for understanding genetic variations and their implications for health and disease, providing a visual interpretation of complex genomic data interactions.
