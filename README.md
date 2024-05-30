@@ -31,14 +31,21 @@ To run these analyses:
 Each result and visualization is stored in the `/results/` directory. These include:
 
 
-- **Bar Plot of Allelic Imbalance (chr17_79478019.png)**
+- **Bar Plot of Allelic Imbalance**
+- 
+![Bar Plot of Allelic Imbalance](results/Bar%20Plot%20of%20Allelic%20Imbalance.png)
 
-![Bar Plot of Allelic Imbalance](results/chr17_79478019.png)
+This bar plot visualizes the mean counts of nucleotides (Adenine (A), Cytosine (C), Guanine (G), and Thymine (T)) across multiple samples at the specific genomic position chr17_79478019. The plot highlights significant allelic imbalances, illustrating how different nucleotides are expressed at varying levels at this particular locus. Such variations are critical for understanding genetic diversity and can be indicative of potential mutations or genetic disorders. 
 
-This bar plot visualizes the mean counts of nucleotides (ACGT) across multiple files for the specific genomic position chr17_79478019. The visualization highlights allelic imbalances crucial in understanding genetic diversity and potential mutations at this location. By comparing the frequency of each nucleotide, researchers can identify significant variations that may be associated with genetic conditions or evolutionary changes. This graph is particularly useful for pinpointing areas within the genome that exhibit non-standard allelic distributions, which might suggest areas of interest for further genetic analysis or clinical investigation.
+By quantifying and comparing the frequency of each nucleotide across samples, this analysis helps researchers identify regions of the genome that may be under selective pressure or linked to specific phenotypic traits. The visualization is particularly valuable for pinpointing areas within the genome that exhibit non-standard allelic distributions, which might suggest areas of interest for further genetic research or clinical investigation. 
+
+This graph serves not only as a tool for genetic discovery but also as a foundation for discussions on genetic variability and its implications in health and disease.
+
 
 - **Phylogenetic Trees**: Includes two phylogenetic trees:
   - A tree constructed using the `ape::read.tree` function demonstrating the evolutionary relationships in a cladogram style without tip labels.
+ ![Complete Phylogenetic Tree of Species](results/Complete%20Phylogenetic%20Tree%20of%20Species.png)
+
   - A detailed view of the smallest subtree containing Homo sapiens and Drosophila melanogaster, illustrating their genetic relationship and evolutionary distance, scaled down to enhance visibility.
   
 These visualizations are instrumental in understanding the genetic variations and their implications for health and disease, providing a visual interpretation of complex genomic data interactions.
