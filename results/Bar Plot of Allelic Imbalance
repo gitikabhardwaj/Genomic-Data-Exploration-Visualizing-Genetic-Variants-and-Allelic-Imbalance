@@ -2,4 +2,4 @@
 
 This bar plot visualizes the mean counts of nucleotides (ACGT) across multiple files for the specific genomic position chr17_79478019. The visualization highlights allelic imbalances crucial in understanding genetic diversity and potential mutations at this location. By comparing the frequency of each nucleotide, researchers can identify significant variations that may be associated with genetic conditions or evolutionary changes. This graph is particularly useful for pinpointing areas within the genome that exhibit non-standard allelic distributions, which might suggest areas of interest for further genetic analysis or clinical investigation.
 
-![Bar Plot of Allelic Imbalance](results/chr17_79478019.png)
+![Bar Plot of Allelic Imbalance](Genomic-Data-Exploration-Visualizing-Genetic-Variants-and-Allelic-Imbalance/results/chr17_79478019.png)
