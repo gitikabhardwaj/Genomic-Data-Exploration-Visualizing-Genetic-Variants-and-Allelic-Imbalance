@@ -3,6 +3,12 @@
 ## Project Overview
 This repository showcases advanced bioinformatics techniques, focusing on RNA sequencing data and genomic databases. Using R, the project delves into analyzing allelic imbalance, constructing phylogenetic trees, identifying SNP variants, and creating complex visualizations. It highlights my ability to translate complex genomic data into actionable insights and demonstrates my data analysis skills.
 
+**Highlights**: 
+- **Cutting-edge Bioinformatics Analyses**: Leverages the latest in genomic databasing and sequence analysis to provide groundbreaking insights into genetic variation.
+- **Interactive Visualizations**: Includes R script that generates dynamic, interactive visualizations for a deeper understanding of the data.
+- **Community Driven**: Open for contributions, this project benefits from collaborations that extend its capabilities and applications.
+
+
 ## Installation
 To run the scripts provided in this repository, certain R packages must be installed. Follow these installation instructions:
 
