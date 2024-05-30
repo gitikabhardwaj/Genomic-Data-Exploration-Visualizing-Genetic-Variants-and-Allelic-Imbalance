@@ -30,7 +30,13 @@ To run these analyses:
 ## Results and And Discussion
 Each result and visualization is stored in the `/results/` directory. These include:
 
-- **Bar Plot of Allelic Imbalance**: Displays the mean counts of ACGT across files for variable `chr17_79478019`. This bar plot helps in visualizing the allelic balance within a specific genomic location, highlighting potential areas of genetic variation.
+
+- **Bar Plot of Allelic Imbalance (chr17_79478019.png)**
+
+![Bar Plot of Allelic Imbalance](results/chr17_79478019.png)
+
+This bar plot visualizes the mean counts of nucleotides (ACGT) across multiple files for the specific genomic position chr17_79478019. The visualization highlights allelic imbalances crucial in understanding genetic diversity and potential mutations at this location. By comparing the frequency of each nucleotide, researchers can identify significant variations that may be associated with genetic conditions or evolutionary changes. This graph is particularly useful for pinpointing areas within the genome that exhibit non-standard allelic distributions, which might suggest areas of interest for further genetic analysis or clinical investigation.
+
 - **Phylogenetic Trees**: Includes two phylogenetic trees:
   - A tree constructed using the `ape::read.tree` function demonstrating the evolutionary relationships in a cladogram style without tip labels.
   - A detailed view of the smallest subtree containing Homo sapiens and Drosophila melanogaster, illustrating their genetic relationship and evolutionary distance, scaled down to enhance visibility.
