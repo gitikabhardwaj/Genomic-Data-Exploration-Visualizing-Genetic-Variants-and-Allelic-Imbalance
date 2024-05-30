@@ -14,7 +14,7 @@ BiocManager::install(c("AllelicImbalance", "VariantAnnotation", "ape", "ComplexH
 ```
 
 ## Project Structure
-- **/data/**: This folder contains the datasets used in the analyses. Due to size constraints or privacy issues, links to access the data are provided when direct upload is not possible.
+- **/data/**: This folder contains the 2 datasets (Allelic Imbalance Data & Phylogenetic Tree Data) used in the analyses. 
 - **/scripts/**: Contains all R scripts developed for data processing, analysis, and visualization. Each script is well-documented to explain its functionality and usage.
 - **/results/**: Includes output files and visualizations generated from the scripts, such as plots and heatmaps.
 
