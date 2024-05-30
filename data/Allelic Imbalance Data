@@ -1,4 +1,4 @@
-# Data Access Instructions for Allelic Imbalance Analysis
+**Data Access Instructions for Allelic Imbalance Analysis**
 
 The dataset used for Allelic Imbalance analysis is included within the R package `AllelicImbalance`. To access this data, install the package using Bioconductor with the following R commands:
 
