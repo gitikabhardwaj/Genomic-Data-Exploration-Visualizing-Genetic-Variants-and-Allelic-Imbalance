@@ -1,0 +1,23 @@
+BiocManager::install('AllelicImbalance')
+BiocManager::install('VariantAnnotation')
+require(AllelicImbalance)
+require(VariantAnnotation)
+pathToFiles <- system.file("extdata/ERP000101_subset",
+                           package = "AllelicImbalance")
+list.files(pathToFiles)
+searchArea = GRanges(seqnames = c("17"), ranges = IRanges(79478000, 79479000))
+reads <- impBamGAL(pathToFiles, searchArea, verbose = TRUE)
+heterozygotePositions <- scanForHeterozygotes(filteredReadsList)
+countList <- getAlleleCounts(heterozygotePositions)
+ase_set = ASEsetFromCountList(heterozygotePositions, countList)
+barplot(ase_set['chr17_79478019'])
+itol <- ape::read.tree("path/to/itol.nwk")
+plot(itol, type = "cladogram", show.tip.label = FALSE)
+mrca_node <- ape::getMRCA(itol, c(homo_sapiens, drosophila_melanogaster))
+print(mrca_node)
+all_sub_trees <- ape::subtrees(itol)
+all_nodes = which(
+  sapply(all_sub_trees, function(ss) all(c('Drosophila_melanogaster', 'Homo_sapiens') %in% ss$tip.label))
+)
+sub_tree = all_sub_trees[[max(all_nodes)]]
+plot(sub_tree, type = "cladogram", cex = 0.5, mar = c(0, 0, 0, 0))
