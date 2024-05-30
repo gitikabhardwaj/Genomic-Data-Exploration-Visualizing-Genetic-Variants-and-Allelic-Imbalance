@@ -28,23 +28,29 @@ To ensure a smooth experience, please follow these steps:
 5. Review output files in the `/results/` directory for analysis results and visualizations.
 
 ## Results and Discussion
-Our analyses yield detailed insights into genetic variation and evolutionary patterns:
+Each result and visualization stored in the `/result/` directory not only underscores the technical ability to manipulate and visualize complex genomic data but also enhances our understanding of genetic diversity and evolutionary biology:
 
 ### Bar Plot of Allelic Imbalance
-This visualization quantifies nucleotide expression at chr17_79478019.
+This bar plot, derived from the specific genomic position chr17_79478019, elucidates significant allelic imbalances. It is pivotal for identifying potential genetic mutations linked to various disorders.
 ![Bar Plot of Allelic Imbalance](results/Bar%20Plot%20of%20Allelic%20Imbalance.png)
-The bar plot visualizes the mean counts of nucleotides (Adenine (A), Cytosine (C), Guanine (G), and Thymine (T)) at the specific genomic position chr17_79478019. It highlights significant allelic imbalances, showing how nucleotides are expressed at varying levels. Such variations are essential for understanding genetic diversity and potential mutations or genetic disorders.
+It visualizes the mean counts of nucleotides (Adenine (A), Cytosine (C), Guanine (G), and Thymine (T)) at chr17_79478019. The allelic imbalances show how nucleotides are expressed at varying levels. Such variations are essential for understanding genetic diversity and potential mutations or genetic disorders.
 
 ### Phylogenetic Trees
-- **Complete Phylogenetic Tree of Species**: Maps the broad evolutionary relationships among studied species, crucial for understanding phylogenetic lineage.
+- **Complete Phylogenetic Tree of Species**: This cladogram demonstrates the broad evolutionary relationships across species, providing insights into their genetic lineage.
 ![Complete Phylogenetic Tree of Species](results/Complete%20Phylogenetic%20Tree%20of%20Species.png)
 
-- **Phylogenetic Subtree of Homo sapiens and Drosophila melanogaster**: Zooms in on the relationship between Homo sapiens and Drosophila melanogaster, useful for studies on genetic distance and evolutionary traits.
+- **Phylogenetic Subtree of Homo sapiens and Drosophila melanogaster**: This detailed view highlights the close genetic relations and evolutionary distances crucial for comparative genomic studies.
 
 ![Phylogenetic Subtree of Homo sapiens and Drosophila melanogaster](results/Phylogenetic%20Subtree%20of%20Homo%20sapiens%20and%20Drosophila%20melanogaster.png)
 
-These findings are pivotal for advancing genetic research and offer potential starting points for developing genetic interventions.
+These findings are pivotal for advancing genetic research and offer potential starting points for developing genetic interventions. The insights gained from the phylogenetic analyses not only enhance our understanding of evolutionary biology but also contribute to our knowledge of genetic linkages and ancestral traits that may influence current biodiversity and species-specific characteristics.
+
+### Future Research Directions
+Building on this work, future research could explore deeper into the functional implications of these genetic relationships. For instance, examining how specific genetic variations influence phenotypic traits could lead to breakthroughs in personalized medicine and conservation biology. Additionally, further studies could utilize these phylogenetic trees to investigate the evolutionary pressures that have shaped the adaptability and resilience of different species over millennia.
+
+### Broader Impacts
+The methodology and findings of this study also have broader implications for biodiversity conservation efforts. By understanding the genetic relationships and historical divergences between species, conservationists can better design strategies that preserve the genetic diversity crucial for ecosystem stability. Furthermore, this research can aid in the educational sector by providing clear, visual representations of evolutionary relationships, which are essential for teaching complex biological concepts in both academic and public settings.
 
 ## Contact
-For any further inquiries or potential collaborations, please feel free to contact me at [gita.bhardwaj1@gmail.com](mailto:gita.bhardwaj1@gmail.com).
+For any further inquiries, please feel free to contact me at [gita.bhardwaj1@gmail.com](mailto:gita.bhardwaj1@gmail.com).
 ```
