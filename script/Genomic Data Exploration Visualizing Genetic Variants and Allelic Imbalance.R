@@ -25,7 +25,7 @@ ase_set <- ASEsetFromCountList(heterozygotePositions, countList)
 barplot(ase_set['chr17_79478019'])
 
 # Load the phylogenetic tree from the provided file
-itol <- ape::read.tree("C:/Users/sande/Downloads/itol.nwk")
+itol <- ape::read.tree("data/Phylogenetic Tree Data/itol.nwk")
 
 # Plot the entire tree in the style of a cladogram without showing tip labels
 plot(itol, type = "cladogram", show.tip.label = FALSE)
