@@ -47,19 +47,19 @@ This portion of the project demonstrates basic phylogenetic tree manipulation an
 
 The bar plot below shows nucleotide counts at the selected chromosome 17 position. The visualization demonstrates how allele-specific sequencing counts can be inspected at an individual genomic locus.
 
-![Allelic imbalance at chr17_79478019](results/allelic_imbalance_chr17.png)
+![Allelic imbalance at chr17_79478019](results/Bar%20Plot%20of%20Allelic%20Imbalance.png)
 
 ### Complete Phylogenetic Tree
 
 The complete phylogenetic tree is displayed as a cladogram to visualize relationships across the species contained in the source tree.
 
-![Complete phylogenetic tree](results/complete_phylogenetic_tree.png)
+![Complete phylogenetic tree](results/Complete%20Phylogenetic%20Tree%20of%20Species.png)
 
 ### Homo sapiens and Drosophila melanogaster Subtree
 
 A focused subtree was extracted to visualize the portion of the phylogenetic tree containing Homo sapiens and Drosophila melanogaster.
 
-![Phylogenetic subtree](results/phylogenetic_subtree.png)
+![Phylogenetic subtree](results/Phylogenetic%20Subtree%20of%20Homo%20sapiens%20and%20Drosophila%20melanogaster.png)
 
 ## Tools
 
@@ -133,5 +133,3 @@ The phylogenetic component demonstrates tree manipulation and visualization rath
 - Genomic range manipulation
 - Phylogenetic tree analysis
 - Biological data visualization
-
-
